@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dipayan Portfolio</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Tangerine:wght@400;700&family=Quantico:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">DIPAYAN MAJUMDAR</div>
+        <ul class="nav-menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Hi, I am Dipayan</h1>
+            <p>Aspiring Full-Stack Developer</p>
+            <div class="hero-buttons">
+                <a href="#about" class="btn">About Me</a>
+                <a href="#contact" class="btn outline">Contact</a>
+            </div>
+        </div>
+    </section>
+    <section id="about" class="cards-section">
+        <h2>About Me</h2>
+        <div class="card-container">
+            <div class="card">
+                <img src="images/education.webp" alt="Education">
+                <h3>Education</h3>
+                <p>Netaji Subhash Engineering College<br>B.Tech – 2nd Year<br>Computer Science Engineering</p>
+            </div>
+            <div class="card" id="skills">
+                <img src="images/skills.jpeg" alt="Skills">
+                <h3>Skills</h3>
+                <p>HTML, CSS, C, C++, Python, Problem Solving Basics</p>
+            </div>
+            <div class="card">
+                <img src="images/goal.webp" alt="Career Goal">
+                <h3>Career Goal</h3>
+                <p>Become a full-stack and software developer and create impactful products while always learning.</p>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="contact-section">
+        <h2>Contact Me</h2>
+        <p class="contact-sub">Let's work together</p>
+        <div class="contact-flex">
+            <form id="contact-form" class="contact-form">
+                <div class="input-group"><i class="fa-solid fa-user"></i><input type="text" placeholder="Your Name"
+                        required autocomplete="name"></div>
+                <div class="input-group"><i class="fa-solid fa-envelope"></i><input type="email"
+                        placeholder="Your Email" required autocomplete="email"></div>
+                <div class="input-group"><i class="fa-solid fa-message"></i><textarea placeholder="Your Message"
+                        required></textarea></div>
+                <button type="submit" class="send-btn"><i class="fa-solid fa-paper-plane"></i> Send Message</button>
+            </form>
+            <div class="contact-info">
+                <p><a href="mailto:dipayanmajumdar2006@gmail.com"><i class="fa-solid fa-envelope"></i> dipayanmajumdar2006@gmail.com</a></p>
+                <p><a href="tel:+919051920460"><i class="fa-solid fa-phone"></i> +91 9051920460</a></p>
+                <p><a href="https://maps.google.com/?q=Howrah" target="_blank"><i class="fa-solid fa-location-dot"></i>
+                        Howrah, India</a></p>
+                <div class="social-row">
+                    <a href="https://www.linkedin.com/in/dipayanmajumdar/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/DipayanMajumdar/" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://x.com/Dipayan787/" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <p>&copy; 2025 Dipayan Majumdar. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
