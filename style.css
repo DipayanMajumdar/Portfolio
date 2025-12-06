@@ -47,11 +47,26 @@
     font-weight: 500;
     font-size: clamp(14px, 1.5vw, 19px);
     transition: 0.4s;
+    position: relative;
+}
+
+.nav-menu a::after {
+    content: '';
+    height: clamp(2px, 0.3vw, 3px);
+    width: 0%;
+    background-color: #ffed00;
+    position: absolute;
+    left: 0;
+    bottom: clamp(-3px, -1vh, -7px);
+    transition: width 0.4s ease-in-out;
 }
 
 .nav-menu a:hover {
     color: #ffed00;
-    transform: scale(1.2);
+}
+
+.nav-menu a:hover::after {
+    width: 100%;
 }
 
 /* HERO SECTION */
